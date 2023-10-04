@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=FontName&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <nav>
+        <div class="logo-container">
+            <img src="https://static3.depositphotos.com/1004996/226/i/600/depositphotos_2260053-stock-photo-glowing-font-shiny-letter-v.jpg"  class="logo">
+        </div>
+    </div>
+    <ul>
+        <P><h4>This is my official portfolio website to showes all</h4></P>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">HIRE ME</a></li>
+    </ul>
+</nav>
+    <h2>BANDI VARSHINI</h2>
+    <p>Web Developer</p>
+    <div class="contact">
+        <h2>Contact Information:</h2>
+        <p>9014279296</p>
+        <ul>
+            <li>Email: bandivarshini2002@gmail.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/bandivarshini" target="_blank"> bandivarshini</a></li>
+            <li>GitHub: <a href="https://github.com/bandivarshini17" target="_blank">bandivarshini17</a></li>
+        </ul>
+    </div>
+    
+</div>
+</body>
+</html>
+
+*{
+    margin: 10;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Set the background image for the entire webpage */
+body {
+    background-image: url('https://images.wallpapersden.com/image/download/face-image-profile_Z21maJSZmpqtpaSklGZuZ2WtZmVtZQ.jpg');
+    background-size: cover; /* Adjust this property for image size */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the image fixed while scrolling */
+    background-position: center center;
+    /* Add other styles as needed */
+}
+
+
+/* Styles for the logo container */
+.logo-container {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    text-align: left; /* Center-align the logo and text within the container */
+}
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.header img {
+    width: 50px;
+    border-radius: 20%;
+}
+
+/* Styles for the contact section */
+.contact {
+    margin: 20px;
+}
+
+.contact h2 {
+    text-align: left;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #776bc5; /* You can choose your own color */
+}
+
+/* Body font */
+body {
+    font-family: "Arial", sans-serif; /* Use a fallback font if the custom font fails to load */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header text */
+.header h1 {
+    font-family: "FontName", sans-serif; /* Use your custom font or a web-safe font */
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Logo text */
+.logo-text {
+    font-family: "FontName", sans-serif; /* Use the same font as the header text */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Other text elements */
+p, ul, li {
+    font-family: "Arial", sans-serif; /* Use a web-safe font for other text */
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+
+
